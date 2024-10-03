@@ -1,0 +1,20 @@
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class DateTimeconcept {
+
+    public static void main(String[] args) {
+        
+        Date d = new Date();
+        System.out.println(d.toString());
+
+        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+        System.out.println(sdf.format(d));
+
+        SimpleDateFormat sd = new SimpleDateFormat("hh:ss");
+        System.out.println(sd.format(d));
+
+;
+    }
+
+}
